@@ -46,7 +46,7 @@ class ShopUserRegisterForm(UserCreationForm):
         user.save()
 
         return user
-
+        
 
 class ShopUserEditForm(UserChangeForm):
     class Meta:
