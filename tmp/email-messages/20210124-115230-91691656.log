@@ -1,0 +1,13 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0J/QvtC00YLQstC10YDQttC00LXQvdC40LUg0YPRh9C10YLQvdC+0Lkg0LfQsNC/?=
+ =?utf-8?b?0LjRgdC4IHdl?=
+From: django@geek.local
+To: we@gb.local
+Date: Sun, 24 Jan 2021 02:52:30 -0000
+Message-ID: <161145675048.5840.12821669418200986713@Roshan-PC.Home>
+
+Для подтверждения перейдите по ссылке: http://localhost:8000/authapp/verify/we@gb.local/9a40ef5ff6b8dd70166df5c2fd463699210f4060
+-------------------------------------------------------------------------------

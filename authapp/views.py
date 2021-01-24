@@ -103,6 +103,7 @@ def send_verify_mail(user):
 def verify(request, email, activation_key):
     try:
         user = ShopUser.objects.get(email=email)
+        auth.login(request, user, backend='django.contrib.auth.backends.ModelBackend')
         if user.activation_key == activation_key and not user.is_activation_key_expired():
             user.is_active = True
             user.activation_key = None
